@@ -62,20 +62,7 @@ public:
     T reply;
     std::unique_ptr<ClientAsyncResponseReader<T>> response_reader; 
 };
-// // struct for keeping state and data information
-// struct AsyncClientCall {
-//     // Container for the data we expect from the server.
-//     HelloReply reply;
 
-//     // Context for the client. It could be used to convey extra information to
-//     // the server and/or tweak certain RPC behaviors.
-//     ClientContext context;
-
-//     // Storage for the status of the RPC upon completion.
-//     Status status;
-
-//     std::unique_ptr<ClientAsyncResponseReader<HelloReply>> response_reader;
-// };
 class AsyncClientHelloCall : public AsyncClientCallBase<HelloReply>
 {
   public:
