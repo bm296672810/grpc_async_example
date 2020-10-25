@@ -9,15 +9,18 @@ grpc 异步调用的例子有服务器的和客户端的代码都有，是基于
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装grpc到系统具体参照grpc官方的编译安装教程https://github.com/grpc/grpc/blob/master/BUILDING.md 安装要执行 $ sudo make install 
+2.  $ git clone https://gitee.com/ellan-bm/grpc_async_example.git 执行git下载代码到本地
+    $ cd grpc_async_example
+    $ mkdir build
+    $ cd build
+    $ cmake ../
+    $ make
+3. 编译完之后 会在build目录下生成二进制文件，是服务端和客户端的测试程序
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+
 
 #### 参与贡献
 

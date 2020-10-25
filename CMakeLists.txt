@@ -19,7 +19,7 @@
 
 cmake_minimum_required(VERSION 3.5.1)
 
-project(grpc_lib)
+project(my_grpc)
 
 add_subdirectory(greeter_lib)
 add_subdirectory(unit_test)
